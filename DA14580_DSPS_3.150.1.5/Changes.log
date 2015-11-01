@@ -1,0 +1,126 @@
+#############################################################################################
+#
+#  Dialog Semiconductor
+#  Het Zuiderkruis 53
+#  5215 MV 's-Hertogenbosch
+#  The Netherlands
+#
+#  Project: Bluetooth Low Energy (BTLE)
+#  SOFTWARE PLATFORM
+#
+#  Please contact bluetooth.support@diasemi.com for questions and support
+#
+##############################################################################################
+
+#Change log file for BTLE_580 distribution
+#
+-------------------------------------------------------------------------
+#Format of the log entries:
+#
+#Date: DD/MM/YYYY
+#Committed by: user-name
+#Type: FEATURE or MAJOR_RESTRUCTURING or BUG_FIX or TUNING or RELEASE
+#ver: the tagged version where the corresponding changes can be found
+#
+#Files: list of files committed, with full path
+#       (e.g. dk_apps/full_emb.uvproj), each one in separate line.
+#
+#Comment: A brief comment regarding the changes that were committed.
+#
+#---------------------------------------------------------------------------
+===========================================================================
+Date: 21/10/2014
+Committed by: Konstantinos Dagres
+Type: FEATURE
+ver: 3.150.1.5
+#
+#Files
+#	dk_apps/keil_projects/sps/sps_host_fh/sps_host_fh.uvopt
+#	dk_apps/keil_projects/sps/sps_host_fh/sps_host_fh.uvproj
+#	dk_apps/src/modules/app/src/app_task.c
+Comment:
+
+      1. Fixing include path in host project
+      2. Fix string compare in gapm_adv_report_ind_handler
+
+
+===========================================================================
+Date: 20/10/2014
+Committed by: Konstantinos Dagres
+Type: FEATURE
+ver: 3.150.1.4
+#
+#Files
+#	dk_apps/src/modules/app/src/app_project/sps/uart/uart_sps.c
+#	dk_apps/src/modules/app/src/app_project/sps/uart/uart_sps.h
+Comment:
+
+      Fix code styling
+
+
+===========================================================================
+Date: 20/10/2014
+Committed by: Konstantinos Dagres
+Type: FEATURE
+ver: 3.150.1.3
+#
+#Files
+#	dk_apps/keil_projects/sps/sps_device_fh/da14580_scatter_config.h
+#	dk_apps/keil_projects/sps/sps_device_fh/sps_device_fh.uvopt
+#	dk_apps/keil_projects/sps/sps_device_fh/sps_device_fh.uvproj
+#	dk_apps/keil_projects/sps/sps_host_fh/da14580_scatter_config.h
+#	dk_apps/keil_projects/sps/sps_host_fh/sps_host_fh.uvopt
+#	dk_apps/keil_projects/sps/sps_host_fh/sps_host_fh.uvproj
+#	dk_apps/src/modules/app/src/app_project/sps/app_sps_proj.h
+#	dk_apps/src/modules/app/src/app_task.c
+Comment:
+
+      Fixes regarding the scatter file configuration.
+
+
+===========================================================================
+Date: 17/10/2014
+Committed by: 
+Type: FEATURE
+ver: 3.150.1.2
+#
+#Files
+#dk_apps/keil_projects/sps/sps_device_fh/da14580_config.h
+#dk_apps/keil_projects/sps/sps_device_fh/da14580_scatter_config.h
+#dk_apps/keil_projects/sps/sps_device_fh/da14580_stack_config.h
+#dk_apps/keil_projects/sps/sps_device_fh/sps_device_fh.uvopt
+#dk_apps/keil_projects/sps/sps_device_fh/sps_device_fh.uvproj
+#dk_apps/keil_projects/sps/sps_host_fh/da14580_config.h
+#dk_apps/keil_projects/sps/sps_host_fh/da14580_scatter_config.h
+#dk_apps/keil_projects/sps/sps_host_fh/da14580_stack_config.h
+#dk_apps/keil_projects/sps/sps_host_fh/sps_host_fh.uvopt
+#dk_apps/keil_projects/sps/sps_host_fh/sps_host_fh.uvproj
+#dk_apps/src/modules/app/api/app.h
+#dk_apps/src/modules/app/api/app_api.h
+#dk_apps/src/modules/app/api/app_sec.h
+#dk_apps/src/modules/app/api/app_sec_task.h
+#dk_apps/src/modules/app/api/app_sw_version.h
+#dk_apps/src/modules/app/api/app_task.h
+#dk_apps/src/modules/app/api/app_task_handlers.h
+#dk_apps/src/modules/app/src/app.c
+#dk_apps/src/modules/app/src/app_project/sps/app_sps_proj.c
+#dk_apps/src/modules/app/src/app_project/sps/app_sps_proj.h
+#dk_apps/src/modules/app/src/app_project/sps/app_sps_proj_task.h
+#dk_apps/src/modules/app/src/app_project/sps/system/app_sleep.h
+#dk_apps/src/modules/app/src/app_project/sps/system/periph_setup.c
+#dk_apps/src/modules/app/src/app_project/sps/system/periph_setup.h
+#dk_apps/src/modules/app/src/app_project/sps/uart/uart_sps.c
+#dk_apps/src/modules/app/src/app_project/sps/uart/uart_sps.h
+#dk_apps/src/modules/app/src/app_sec.c
+#dk_apps/src/modules/app/src/app_sec_task.c
+#dk_apps/src/modules/app/src/app_task.c
+#dk_apps/src/modules/app/src/app_utils/app_console/app_console.c
+#dk_apps/src/modules/app/src/app_utils/app_console/app_console.h
+#dk_apps/src/modules/app/src/app_utils/app_multi_bond/app_multi_bond.c
+#dk_apps/src/modules/app/src/app_utils/app_multi_bond/app_multi_bond.h
+#dk_apps/src/modules/app/src/app_utils/app_stream_queue/app_stream_queue.c
+#dk_apps/src/modules/app/src/app_utils/app_stream_queue/app_stream_queue.h
+#
+Comment:
+
+	Initial Version

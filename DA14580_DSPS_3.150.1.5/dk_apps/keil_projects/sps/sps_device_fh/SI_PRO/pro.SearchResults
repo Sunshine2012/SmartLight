@@ -1,0 +1,5 @@
+---- bat_poll_timeout Matches (4 in 2 files) ----
+App_batt.c (i:\da14580_dsps_3.150.1.5 (2)\da14580_dsps_3.150.1.5\dk_apps\src\modules\app\src\app_profiles\bass):uint16_t bat_poll_timeout __attribute__((section("retention_mem_area0"),zero_init)); //@RETENTION MEMORY
+App_batt.c (i:\da14580_dsps_3.150.1.5 (2)\da14580_dsps_3.150.1.5\dk_apps\src\modules\app\src\app_profiles\bass):    bat_poll_timeout = poll_timeout;
+App_batt_task.c (i:\da14580_dsps_3.150.1.5 (2)\da14580_dsps_3.150.1.5\dk_apps\src\modules\app\src\app_profiles\bass):extern uint16_t bat_poll_timeout; 
+App_batt_task.c (i:\da14580_dsps_3.150.1.5 (2)\da14580_dsps_3.150.1.5\dk_apps\src\modules\app\src\app_profiles\bass):	app_timer_set(APP_BATT_TIMER, dest_id, bat_poll_timeout);

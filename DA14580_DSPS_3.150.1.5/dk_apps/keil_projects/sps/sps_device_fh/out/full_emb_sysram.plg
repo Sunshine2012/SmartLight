@@ -1,0 +1,16 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+I:\DA14580_DSPS_3.150.1.5 (2)\DA14580_DSPS_3.150.1.5\dk_apps\keil_projects\sps\sps_device_fh\sps_device_fh.uvproj
+Project File Date:  10/07/2015
+
+<h2>Output:</h2>
+Build target 'Full_emb_cortex_M0'
+compiling wechat_task.c...
+linking...
+..\..\..\scatterfiles\scatterfile_common.sct(356): warning: L6314W: No section matches pattern app_spotar.o(spotar_patch_area).
+Program Size: Code=18456 RO-data=1780 RW-data=76 ZI-data=10384  
+FromELF: creating hex file...
+".\out\full_emb_sysram.axf" - 0 Errors, 1 Warning(s).
